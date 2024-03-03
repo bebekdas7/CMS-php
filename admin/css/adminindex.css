@@ -1,0 +1,36 @@
+.sidebar {
+  height: 92vh;
+  background: #000;
+}
+.body {
+  height: 92vh;
+  overflow: scroll;
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.widgets {
+  height: 20vh;
+  border-radius: 10px;
+}
+.widgets span {
+  height: 100%;
+}
+.widgets a {
+  border: 1px solid white;
+  background: white;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon i {
+  color: wheat;
+  font-size: 3rem;
+}
+.chart {
+  height: 55vh;
+}

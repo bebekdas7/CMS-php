@@ -1,0 +1,18 @@
+.main {
+  width: 70vw;
+  height: 91vh;
+  overflow-y: auto;
+  border-right: 1px solid lightgray;
+}
+.main::-webkit-scrollbar {
+  display: none;
+}
+.img-container {
+  width: 75%;
+  height: 35vh;
+}
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
